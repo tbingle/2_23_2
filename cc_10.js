@@ -101,6 +101,12 @@ inventory.addProduct(prod3);  //Add product 3 to the inventory
 inventory.listProducts(); //List all products in the inventory
 
 //Task 4
-inventory.placeOrder(601, prod1, 2); //New order
+
+inventory.placeOrder(601, prod2, 2); //New order
 inventory.listOrders(); 
-console.log(prod1.getDetails());//Details
+console.log(prod3.getDetails());//Details
+
+//Task 5
+
+inventory.restockProduct(101, 5); //Restocking 
+console.log(prod5.getDetails());
