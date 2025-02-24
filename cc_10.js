@@ -99,3 +99,8 @@ const inventory = new Inventory(); //Create an inventory instance
 inventory.addProduct(prod4);  //Add product 4 to the inventory
 inventory.addProduct(prod3);  //Add product 3 to the inventory
 inventory.listProducts(); //List all products in the inventory
+
+//Task 4
+inventory.placeOrder(601, prod1, 2); //New order
+inventory.listOrders(); 
+console.log(prod1.getDetails());//Details
